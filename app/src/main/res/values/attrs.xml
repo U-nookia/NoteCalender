@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="addView">
+        <attr name="radius" format="integer" />
+        <attr name="addSymbolColor" format="color" />
+        <attr name="backgroundColor" format="color"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".note_view.NoteView"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <Button
+        android:id="@+id/buttonBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_basic"
+        style="@style/Button"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:id="@+id/recycler">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.xpjun.calender.note_view.AddView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/add"/>
+
+</LinearLayout>
